@@ -23,7 +23,7 @@ for i in range(0, nr_symbols):
 
 
 print(generated_password)
-random.shuffle(generated_password)
+random.shuffl e(generated_password)
 print(generated_password)
 
 password_string = ""
@@ -31,11 +31,3 @@ for char in generated_password:
     password_string += char
 
 print(f"Your password is: {password_string}")
-
-
-#Eazy Level - Order not randomised:
-#e.g. 4 letter, 2 symbol, 2 number = JduE&!91
-
-
-#Hard Level - Order of characters randomised:
-#e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
